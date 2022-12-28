@@ -1,7 +1,7 @@
-9id=101
-print(id)
-def wish():
+id9=101
+print(id9)
+def for():
     print("GM")
     print("GN")
     
-wish()
+for()
