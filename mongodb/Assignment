@@ -1,0 +1,7 @@
+Download JSON Data from https://www.mockaroo.com/
+
+Write python program read json file Data and write into 
+        1)mongodb databaase -collection
+        2)MYSQL databaase   - table
+        3)Another CSV format
+        4)Another JSON File

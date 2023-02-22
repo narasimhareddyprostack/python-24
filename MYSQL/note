@@ -1,0 +1,27 @@
+step 1: import required db module 
+step 2: Establish Connection
+step 3: create cursor
+step 4: execute SQL Statements using methods
+step 5:commit or rollback - if required
+step 6: close cursor and connection
+
+CRUD SQL Commands
+CREATE DATABASE pydb
+1. Create Table
+create table employee(id int, name varchar(32), email varchar(32), salary int);
+
+
+
+show DATABASES
+	
+CREATE DATABASE pydb
+use pydb
+
+create table employeeOne(id int, name varchar(32), email varchar(32), salary int);
+
+insert into employee(id, name, email, salary) values(101, "Rahul", "rahul@gmail.com", 45000),(102, "Sonia", "sonia@gmail.com", 55000),(103, "Priya", "priyal@gmail.com", 65000);
+
+select * from employee
+
+
+delete employeeone where id=104;
